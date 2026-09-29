@@ -1,0 +1,24 @@
+{
+  "model_name": "landguard-rf-baseline-v1",
+  "algorithm": "RandomForestClassifier",
+  "features": [
+    "slope_deg",
+    "elevation_m",
+    "rain_72h_mm",
+    "rain_current_mmh",
+    "tri_ruggedness",
+    "fragile_lithology",
+    "nearest_historical_km"
+  ],
+  "calibrated_weights": {
+    "slope_deg": 0.32,
+    "rain_72h_mm": 0.28,
+    "tri_ruggedness": 0.16,
+    "nearest_historical_km": 0.12,
+    "fragile_lithology": 0.08,
+    "rain_current_mmh": 0.04
+  },
+  "status": "RESEARCH_BASELINE",
+  "hybrid_weight": 0.2,
+  "physical_weight": 0.8
+}

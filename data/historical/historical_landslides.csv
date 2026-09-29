@@ -1,0 +1,9 @@
+id,location_name,state,district,latitude,longitude,event_date,severity,casualties,source,description
+gsi-ner-001,"Tupul Railway Yard / Noney",Manipur,Noney,24.8118,93.6552,2022-06-30,Catastrophic,61,"GSI NLSM / Manipur SDMA","Massive rotational debris flow buried railway construction camp and blocked the Ijei river."
+gsi-ner-002,"Chungthang Hydro Dam Basin",Sikkim,North Sikkim,27.6042,88.6472,2023-10-04,Catastrophic,42,"NDMA / CWC","South Lhonak GLOF flash flood and debris slurry breached Teesta III dam."
+gsi-ner-003,"New Haflong Junction, Dima Hasao",Assam,Dima Hasao,25.1792,93.0164,2022-05-15,Severe,3,"Northeast Frontier Railway / ASDMA","Mud avalanche inundated railway station tracks and severed Lumding-Badarpur lifeline."
+gsi-ner-004,"Phesama Sinking Zone, NH-29, Kohima",Nagaland,Kohima,25.6698,94.1084,2021-08-12,Severe,0,"Nagaland NSDMA","Deep-seated rotational slump along NH-29 disrupted trade logistics."
+gsi-ner-005,"Hunthar & Melthum Slopes, Aizawl",Mizoram,Aizawl,23.7312,92.7115,2024-05-28,Catastrophic,34,"Mizoram DM&R / GSI","Multi-site failure triggered by Cyclone Remal rainfall on weathered Surma siltstones."
+gsi-ner-006,"9th Mile, Gangtok-Nathula Highway (NH-10)",Sikkim,East Sikkim,27.3412,88.6145,2023-07-18,Severe,2,"BRO Project Swastik","Continuous cloudburst caused slope liquidation across fragile Daling phyllite cuts."
+gsi-ner-007,"Cherrapunji-Shella Escarpment",Meghalaya,East Khasi Hills,25.2514,91.7188,2020-06-02,Moderate,4,"Meghalaya SDMA","High-velocity rockfall and scree slide along road cutting."
+gsi-ner-008,"Naharlagun Hill Cut, Papum Pare",Arunachal Pradesh,Papum Pare,27.1052,93.6384,2024-05-28,Moderate,1,"Arunachal Disaster Dept","Siwalik sand-rock collapse after 36-hour intense rainfall."

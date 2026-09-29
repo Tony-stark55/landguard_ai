@@ -1,0 +1,6 @@
+{
+  "name": "LANDGUARD AI — Landslide Risk Monitoring & Early Warning",
+  "description": "AI-Powered Landslide Risk Monitoring, Geospatial Hotspot Intelligence & Decision Support System for the North Eastern Region (NER) of India.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,47 @@
+{
+  "dataset_summary": {
+    "total_samples": 16,
+    "positive_events": 8,
+    "negative_controls": 8,
+    "train_samples": 10,
+    "validation_samples": 3,
+    "test_samples": 3,
+    "validation_strategy": "Spatial / Region-Stratified (Zero data leakage across states)"
+  },
+  "model_architecture": {
+    "algorithm": "RandomForestClassifier Baseline (Ensemble of 50 Decision Trees)",
+    "features": [
+      "slope_deg",
+      "elevation_m",
+      "rain_72h_mm",
+      "rain_current_mmh",
+      "tri_ruggedness",
+      "fragile_lithology",
+      "nearest_historical_km"
+    ],
+    "feature_importances": {
+      "slope_deg": 0.32,
+      "rain_72h_mm": 0.28,
+      "tri_ruggedness": 0.16,
+      "nearest_historical_km": 0.12,
+      "fragile_lithology": 0.08,
+      "rain_current_mmh": 0.04
+    }
+  },
+  "test_evaluation_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "true_negatives": 2,
+      "false_negatives": 0
+    }
+  },
+  "operational_status": "RESEARCH / OPTIONAL BASELINE MODEL",
+  "scientific_disclaimer": "Research baseline on a small curated dataset. Metrics are not representative of real-world generalization. Sample size is limited to 16 rigorously curated regional records. Standalone ML is NOT certified for life-safety operational early-warning and is NOT 100% accurate in real-world conditions. LANDGUARD AI designates the physical-empirical deterministic risk engine as the authoritative production model, with ML serving strictly as an explainable supporting signal in the hybrid framework.",
+  "ml_metric_warning": "CRITICAL METRIC WARNING: While this prototype baseline achieves high scores on the 3-sample held-out regional test split, these metrics DO NOT prove real-world predictive generalization across unmapped complex terrain. No claim of government or scientific validation is made."
+}
